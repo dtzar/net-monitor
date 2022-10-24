@@ -22,7 +22,6 @@ runs:
       run: |
         if [[ -z $ARTIFACT_TYPE ]]; then
           case $MEDIA_TYPE in
-
             application/spdx+json)
               ARTIFACT_TYPE=org.example.sbom.v0
               ;;
